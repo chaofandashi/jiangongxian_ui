@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80d24ae3-db20-4e63-bfd5-8873bd416aba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/function.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/myunit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/base_api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/login_api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/regist_api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_case/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_report/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/order_img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/order_img/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/order_img/123.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/order_img/1234.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/order_img/12345.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/client_api/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/client_api/c_base_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/client_api/c_order_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/client_api/c_regist_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/management/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/management_api/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/management_api/m_base_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/management_api/m_login_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_obj/management_api/m_order_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/tte.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page_obj/regist_api.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jiangongxian_ui.iml" afterPath="$PROJECT_DIR$/.idea/jiangongxian_ui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page_obj/base_api.py" afterPath="$PROJECT_DIR$/page_obj/client_api/c_base_api.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page_obj/login_api.py" afterPath="$PROJECT_DIR$/page_obj/client_api/c_login_api.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,53 +32,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="myunit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/myunit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_obj/base_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regist_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_obj/regist_api.py">
+      <file leaf-file-name="m_base_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/management_api/m_base_api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="21" />
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m_login_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/management_api/m_login_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m_order_api.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page_obj/management_api/m_order_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
               <folding>
-                <element signature="e#21#51#0" expanded="true" />
+                <element signature="e#1269#1474#0" expanded="false" />
+                <element signature="e#1508#1785#0" expanded="false" />
+                <element signature="e#1820#2024#0" expanded="false" />
+                <element signature="e#2072#2217#0" expanded="false" />
+                <element signature="e#2254#2399#0" expanded="false" />
+                <element signature="e#2445#2663#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_api.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page_obj/login_api.py">
+      <file leaf-file-name="c_order_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_order_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="1550">
+              <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/py3.6/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5550">
+              <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errorhandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/py3.6/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4400">
+              <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/py3.6/Lib/site-packages/selenium/webdriver/common/service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="c_login_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_login_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="12" />
+              <folding>
+                <element signature="e#21#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="c_base_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_base_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="c_regist_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_regist_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -84,6 +150,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>quote</find>
+      <find>处 理</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -94,17 +166,31 @@
         <option value="$PROJECT_DIR$/common/function.py" />
         <option value="$PROJECT_DIR$/page_obj/introduce_api.py" />
         <option value="$PROJECT_DIR$/page_obj/logout_api.py" />
-        <option value="$PROJECT_DIR$/page_obj/base_api.py" />
         <option value="$PROJECT_DIR$/page_obj/login_api.py" />
         <option value="$PROJECT_DIR$/page_obj/regist_api.py" />
+        <option value="$PROJECT_DIR$/test_data/tte.py" />
+        <option value="$PROJECT_DIR$/page_obj/order_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/base_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/client_api/base_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/client_api/regist_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/client_api/order_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/management/m_examine.py" />
+        <option value="$PROJECT_DIR$/page_obj/client_api/c_base_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/client_api/c_login_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/management/m_base_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/management/m_login_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/management/m_order_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/client_api/c_regist_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/client_api/c_order_api.py" />
+        <option value="$PROJECT_DIR$/page_obj/management_api/m_order_api.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="760" />
-    <option name="y" value="18" />
-    <option name="width" value="1171" />
-    <option name="height" value="1005" />
+    <option name="x" value="385" />
+    <option name="y" value="1" />
+    <option name="width" value="1542" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,8 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,25 +220,35 @@
             <path>
               <item name="jiangongxian_ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiangongxian_ui" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="page_obj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiangongxian_ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiangongxian_ui" type="462c0819:PsiDirectoryNode" />
               <item name="page_obj" type="462c0819:PsiDirectoryNode" />
+              <item name="management_api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/pywork/test1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\jiangongxian_ui\page_obj\management" />
+      <recent name="D:\github\jiangongxian_ui\test_data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\jiangongxian_ui\page_obj\management_api" />
+      <recent name="D:\github\jiangongxian_ui\page_obj\client_api" />
+      <recent name="D:\github\jiangongxian_ui\test_data" />
       <recent name="D:\github\jiangongxian_ui" />
     </key>
   </component>
@@ -170,68 +264,106 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.regist_api">
-    <configuration name="introduce_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.m_order_api">
+    <configuration name="c_order_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj/client_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="jiangongxian_ui" />
-      <option name="SCRIPT_NAME" value="D:\github\jiangongxian_ui\page_obj\regist_api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_obj/client_api/c_order_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="login_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="m_base_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj/management" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="jiangongxian_ui" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_obj/login_api.py" />
+      <option name="SCRIPT_NAME" value="D:\github\jiangongxian_ui\page_obj\management_api\m_base_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="regist_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="m_login_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj/management" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="jiangongxian_ui" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_obj/regist_api.py" />
+      <option name="SCRIPT_NAME" value="D:\github\jiangongxian_ui\page_obj\management_api\m_login_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.login_api" />
-      <item index="1" class="java.lang.String" itemvalue="Python.introduce_api" />
-      <item index="2" class="java.lang.String" itemvalue="Python.regist_api" />
+    <configuration name="m_order_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj/management" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jiangongxian_ui" />
+      <option name="SCRIPT_NAME" value="D:\github\jiangongxian_ui\page_obj\management_api\m_order_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="order_api (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj/client_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jiangongxian_ui" />
+      <option name="SCRIPT_NAME" value="D:\github\jiangongxian_ui\page_obj\client_api\c_order_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.order_api (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.c_order_api" />
+      <item index="2" class="java.lang.String" itemvalue="Python.m_login_api" />
+      <item index="3" class="java.lang.String" itemvalue="Python.m_order_api" />
+      <item index="4" class="java.lang.String" itemvalue="Python.m_base_api" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.regist_api" />
-        <item index="1" class="java.lang.String" itemvalue="Python.introduce_api" />
-        <item index="2" class="java.lang.String" itemvalue="Python.login_api" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.m_order_api" />
+        <item index="1" class="java.lang.String" itemvalue="Python.m_base_api" />
+        <item index="2" class="java.lang.String" itemvalue="Python.c_order_api" />
+        <item index="3" class="java.lang.String" itemvalue="Python.m_login_api" />
+        <item index="4" class="java.lang.String" itemvalue="Python.order_api (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -249,26 +381,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="18" width="1171" height="1005" extended-state="0" />
+    <frame x="385" y="1" width="1542" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17662337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15465268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2327113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2572707" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -276,7 +408,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -284,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -292,11 +425,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_base_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/base_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_order_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_regist_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/tte.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_base_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_order_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_regist_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/tte.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_base_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
@@ -304,20 +544,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/login_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_regist_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="1100">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/regist_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_login_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="625">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
           <folding>
-            <element signature="e#21#51#0" expanded="true" />
+            <element signature="e#21#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -326,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -334,11 +572,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_base_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/base_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#21#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_regist_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_base_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -346,21 +622,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/login_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_login_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-          <folding />
+          <folding>
+            <element signature="e#21#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/regist_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_regist_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#21#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -368,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,11 +650,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/base_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_base_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -388,38 +661,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/login_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_login_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/regist_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
           <folding>
-            <element signature="e#21#51#0" expanded="true" />
+            <element signature="e#21#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/logout_api.py" />
-    <entry file="file://$PROJECT_DIR$/common/myunit.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_regist_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/base_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/logout_api.py" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/275769643/FileRecv/YAPI初次使用指南(MacOS).md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="-2855">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/tte.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -427,25 +697,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py3.6/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11450">
+          <caret line="460" column="0" lean-forward="false" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py3.6/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5550">
+          <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/regist_api.py">
+    <entry file="file://D:/py3.6/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="4400">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py3.6/Lib/site-packages/selenium/webdriver/common/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/management/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_regist_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_order_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="12" />
           <folding>
-            <element signature="e#21#51#0" expanded="true" />
+            <element signature="e#21#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/login_api.py">
+    <entry file="file://$PROJECT_DIR$/page_obj/client_api/c_base_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        <state relative-caret-position="450">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/management_api/m_base_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/management_api/m_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/management_api/m_order_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding>
+            <element signature="e#1269#1474#0" expanded="false" />
+            <element signature="e#1508#1785#0" expanded="false" />
+            <element signature="e#1820#2024#0" expanded="false" />
+            <element signature="e#2072#2217#0" expanded="false" />
+            <element signature="e#2254#2399#0" expanded="false" />
+            <element signature="e#2445#2663#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
