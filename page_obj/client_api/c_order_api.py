@@ -4,7 +4,7 @@ import time
 from page_obj.client_api.c_login_api import *
 from selenium.webdriver.common.by import By
 from page_obj.client_api.c_base_api import *
-
+from selenium import webdriver
 class COrder(CBase):
     order_product = (By.XPATH, "//span[text()='立即投保']")
     name = (By.XPATH, "//input[@placeholder='请填入投保人姓名']")
@@ -64,9 +64,12 @@ class COrder(CBase):
             self.find_element(*self.submint).click()
 
 if __name__ == '__main__':
-    login=CLogin()
+    driver = webdriver.Firefox()
+    url = "https://insurance.chinavanda.com/"
+    driver.get(url)
+    login=CLogin(driver)
     login.login_action("god","123456")                    # 登录
-    c_order=COrder()
+    c_order=COrder(driver)
     # 0 广州阳光、 1广州人保、 2东莞人保
     c_order.order_buy(0)
     c_order.upload_img()

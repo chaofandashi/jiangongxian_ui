@@ -4,8 +4,8 @@ from page_obj.client_api.c_login_api import *
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from page_obj.client_api.c_base_api import *
-
-class CRegist(CBase):
+from selenium import webdriver
+class CRegist(CLogin):
     my_tab = (By.XPATH, "//div[text()='我']")
     get_introduce=(By.XPATH,"//div[text()='生成内推码']")
     copy_introduce=(By.XPATH,"//button[text()='复制内推码']")
@@ -15,6 +15,8 @@ class CRegist(CBase):
     password =(By.XPATH, "//input[@placeholder='请输入登录密码']")
     password2 = (By.XPATH, "//input[@placeholder='请确认登录密码']")
     regist_c=(By.XPATH, "//span[text()='注 册']")
+    duanyan=(By.XPATH, "//span[text()='使用已有账户登录']")
+    had_btn = (By.XPATH, "//span[text()='使用已有账户登录']")
     # back_=(By.XPATH, "//span[@class='am-navbar-left-icon']/svg")
     def introduce_action(self):
         self.find_element(*self.my_tab).click()
@@ -35,11 +37,11 @@ class CRegist(CBase):
     #     self.find_element(*self.back_).click()
     def ready_action(self):
         self.introduce_action()
-        CRegist().back_browser()
+        self.back_browser()
         time.sleep(1)
-        CLogin().logout_action()
+        self.logout_action()
         time.sleep(1)
-        CLogin().logout_sure()
+        self.logout_sure()
         self.into_regist()
     def regist_action(self,username,pwd,pwd2):
         try:
@@ -52,20 +54,41 @@ class CRegist(CBase):
             self.type_password2(pwd2)
             self.send_introduce()
             self.click_regist()
+    def error_introduce(self,username,pwd,pwd2,introduce):
+        try:
+            self.into_regist()
+        except Exception as e:
+            pass
+        finally:
+            self.type_username(username)
+            self.type_password(pwd)
+            self.type_password2(pwd2)
+            self.find_element(*self.introduce_into).clear()
+            self.find_element(*self.introduce_into).send_keys(introduce)
+            self.click_regist()
     def send_introduce(self):
         self.find_element(*self.introduce_into).clear()
         self.find_element(*self.introduce_into).send_keys(Keys.CONTROL,'v')
     def click_regist(self):
         self.find_element(*self.regist_c).click()
+    def regist_sucess(self):
+        return self.find_element(*self.duanyan).text
+    def back_login(self):
+        self.find_element(*self.had_btn).click()
 if __name__ == '__main__':
-    login=CLogin()
+    driver = webdriver.Firefox()
+    url = "https://insurance.chinavanda.com/"
+    driver.get(url)
+    login=CLogin(driver)
     login.login_action("god","123456")                    # 登录
-    c_regist=CRegist()
+    c_regist=CRegist(driver)
     c_regist.ready_action()                                 # 注册账号密码
-    c_regist.regist_action("qq10087","123456","123456")
+    c_regist.regist_action("qq11001102","123456","123456")
+    # time.sleep(2)
+    # c_regist.regist_action("qq11001100", "123456", "123456")
+    login.login_action("qq11001102","123456")                # 使用注册账号登录
     time.sleep(2)
-    c_regist.regist_action("qq10090", "123456", "123456")
-    # login.login_action("qq10010","123456")                # 使用注册账号登录
+    driver.quit()
 
 
 

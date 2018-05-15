@@ -5,6 +5,7 @@ from page_obj.management_api.m_base_api import *
 import time
 
 class MLogin(BBase):
+    driver.implicitly_wait(10)
     username_loc = (By.XPATH,"//input[@placeholder='请输入账户名/手机号']")
     password_loc = (By.XPATH,"//input[@placeholder='请输入登录密码']")
     submit = (By.XPATH, "//button[@type='button']")
