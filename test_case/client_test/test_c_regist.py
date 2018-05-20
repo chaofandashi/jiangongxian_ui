@@ -22,27 +22,27 @@ class RegistTest(unittest.TestCase):
         time.sleep(1)
     def test_regist1(self):
         '''正常注册'''
-        c_login = CLogin(self.driver)
-        c_login.login_action("god", "123456")
-        c_regist = CRegist(self.driver)
-        c_regist.ready_action()
-        c_regist.regist_action(self.username, "123456", "123456")
-        c_login.login_action(self.username, "123456")
+        clogin = CLogin(self.driver)
+        clogin.login("god", "bhs@mangohm")
+        clogin.get_introduce()
+        regist = CRegist(self.driver)
+        regist.regist(self.username, "123456")
+        clogin.login(self.username, "123456")
         try:
-            self.assertEqual(c_login.login_sucess(), "广州阳光")
-            print(c_login.login_sucess())
-            c_login.logout_action()
+            self.assertEqual(clogin.login_sucess(), "广州阳光")
+            print(clogin.login_sucess())
+            clogin.logout()
         except Exception as e:
             print("截图")
             print(e)
     def test_regist2_error(self):
         '''已用过内推码注册'''
-        c_login = CLogin(self.driver)
-        c_login.login_action("god", "123456")
-        c_regist = CRegist(self.driver)
-        c_regist.ready_action()
-        c_regist.regist_action(self.username, "123456", "123456")
-        c_regist.regist_action("qq275769643", "123456", "123456")
+        clogin = CLogin(self.driver)
+        clogin.login("god", "bhs@mangohm")
+        clogin.get_introduce()
+        regist = CRegist(self.driver)
+        regist.regist(self.username, "123456")
+        regist.regist("a12310015", "123456")
         try:
             time.sleep(3)
             self.assertEqual(c_regist.regist_sucess(),"使用已有账户登录")
