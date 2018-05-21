@@ -1,7 +1,9 @@
 #-*-coding:utf-8-*- 
 from selenium import webdriver
 url="https://insurance.chinavanda.com/"
+from common.log import *
 # test_url="https://idev.bhsgd.net"
+log = Log()
 class CBase():
     def __init__(self,drive):
         self.driver=drive
