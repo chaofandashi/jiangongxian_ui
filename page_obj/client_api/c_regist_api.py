@@ -68,7 +68,7 @@ class CRegist(CLogin):
         self.input_surepwd(pwd)
         self.input_introduce()
         self.click_regist()
-        
+
         time.sleep(3)
         try:
             self.back_login()
